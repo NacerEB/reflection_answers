@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository I create a hidden git folder. This is important, because it allows git to track the history of the file/files
+in the repository and to save different versions of the file/files each time I choose to "commit".
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It offers the possibility to save a copy of older versions of a same file by using the commit function. It is also an
+intermediate between the comitted file and the usual files that are in the directory but that aren't tracked.
