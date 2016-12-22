@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing a diff between the two versions saved a lot of time that would have been spent comparing every line.
+Instead the diff method allows you to see directly the differences and, from there, to look for typos and other
+possible errors.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having the access to the entire history of a file allows you as a programmer to correct bugs easily. In fact, you only need to find
+at which version the bug appeared and compare that version using diff to the one before. That makes it faster and more efficient
+than looking through your code line by line.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+
+One of the pros would be that you can judge when it is important to create a commit rather then having multiple commits that
+aren't compilable and that don't make sense. One of the cons is that you can forget to commit for a long time and if create
+a bug it will be harder to correct it.
+
+Why do you think some version control systems,
+like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In contrast with others, Git allows multiples files in one commit, because Git is mostly use by programmers, who need
+to save many files that are related to each other. Whilst Google Docs and others aren't really used for programming, but
+more for standard text editing, where multiple files don't really affect each other.
+
+How might using version control make you more confident to make changes that could break something?
+
+It allows a programmer to have a safe cushion in case bug appears. In fact, thanks to git and version controls it
+is so easy to detect a bug that appeared in new versions of a program that the risk of creating a bug is less intimidating when
+updating a code, adding new functionalities, etc.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it for the version control mechanism with my other Java and Android projects !
