@@ -6,4 +6,10 @@ Basically, when you want others to be able to access your project too.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because, sometimes you might not want to pull something, either because it is not ready to be pulled or because it is a branch
-you don't need and would just take up space for nothing. 
+you don't need and would just take up space for nothing.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+When doing a fork you are copying something from another person's gitHub profile to yours. So from online to online = fork,
+When cloning you are copying something either online or in your computer to your computer.
+Branches here refers to creating a branch in your actual repository.
