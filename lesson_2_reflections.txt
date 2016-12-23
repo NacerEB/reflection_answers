@@ -6,4 +6,28 @@ in the repository and to save different versions of the file/files each time I c
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It offers the possibility to save a copy of older versions of a same file by using the commit function. It is also an
-intermediate between the comitted file and the usual files that are in the directory but that aren't tracked.
+intermediate between the committed file and the usual files that are in the directory but that aren't tracked.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Thanks to the staging area I can now observe the difference between the current version of a file and the most recent
+committed version. This allows me to compare both of them and to judge more easily if the change done is appropriate enough
+to commit or just too small.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be really helpful, because they can allow a programmer to organize the developement of different experimental
+features by seperating the branches they are in. This allows to test a piece of code without worrying about other changes made
+recently that aren't related to the experimental feature of interest.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is combining the final result of branch to the final result of the other branch. The reason
+we represent it in the diagram as we do is that by merging both branches together we even merge their history.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The advantage is that you can save a lot of time that would otherwise be spent copy pasting lines like a robot, whilst an
+actual robot can do it for you. The problem is that it may create a few bugs by misplacing lines or maybe placing them in a
+place that you wouldn't, because it doesn't make any logical sense. Plus, if you change the order of your lines, like if
+you add an empty (or not) line of code I think thank all the other lines will be detected as a change... [not sure]
